@@ -1,4 +1,4 @@
-package com.myviroapp;
+package com.ndmnhat.engbuddy;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle;
