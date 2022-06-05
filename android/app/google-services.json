@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537901384704",
+    "project_id": "engbuddy-e0a64",
+    "storage_bucket": "engbuddy-e0a64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537901384704:android:2ef767488efddeccdd04e5",
+        "android_client_info": {
+          "package_name": "com.ndmnhat.engbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537901384704-3vslokf4tl1tvpljfgk87gh7ka7sakld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4ZLZJGKBiwEp2fTgHZTfilskly8HtIRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537901384704-3vslokf4tl1tvpljfgk87gh7ka7sakld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

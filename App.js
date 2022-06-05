@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MainScreen } from './src/screens/MainScreen';
-import { ArScreen } from './src/screens/ArScreen';
-const Root = createNativeStackNavigator();
+import { SettingScreen } from './src/screens/SettingScreen';
+
+const Tab = createBottomTabNavigator();
 
 function App() {
   return (
     <NavigationContainer>
-      <Root.Navigator initialRouteName="Home">
-        <Root.Screen name="Home" component={MainScreen} />
-        <Root.Screen name="AR" component={ArScreen} />
-      </Root.Navigator>
+      <Tab.Navigator initialRouteName="Home">
+        <Tab.Screen name="Home" component={MainScreen} />
+        <Tab.Screen name="Setting" component={SettingScreen} />
+      </Tab.Navigator>
     </NavigationContainer>
   );
 }
