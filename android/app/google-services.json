@@ -29,6 +29,13 @@
             {
               "client_id": "537901384704-3vslokf4tl1tvpljfgk87gh7ka7sakld.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "537901384704-p390cubb3qsqmjka83urnn6tn8biicv9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.ndmnhat.engbuddy"
+              }
             }
           ]
         }

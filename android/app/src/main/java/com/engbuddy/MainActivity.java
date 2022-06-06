@@ -11,7 +11,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "myviroapp";
+    return "engbuddy";
   }
   @Override
   protected void onCreate(Bundle savedInstanceState) {
